@@ -21,7 +21,7 @@ is-it-maintained-open-issues = { repository = "rust-lang/stdarch" }
 maintenance = { status = "experimental" }
 
 [dependencies]
-libc = { version = "0.2", optional = true, default-features = false }
+libc = { git = "https://github.com/fortanix/libc.git", branch = "fortanixvme", optional = true, default-features = false }
 cfg-if = "0.1.10"
 
 # When built as part of libstd

@@ -19,3 +19,6 @@ incremental = true
 debug = 1
 opt-level = 3
 incremental = true
+
+[patch.crates-io]
+libc = { git = "https://github.com/raoulstrackx/libc.git", branch = "raoul/fortanixvme_rebase_106" }
